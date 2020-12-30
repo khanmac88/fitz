@@ -63,16 +63,10 @@ constructor(props) {
 
 <View style={{padding: 20}}>
 
-<FlatList
-          data={ this.state.dataSource }
-          refreshing="false"
-          renderItem={({item}) => 
-<HTML html={item.st_aboutus} />            
-}
-        keyExtractor={(item, index) => index.toString()}
-        
-
-        />
+<Text>
+    We are a simple app that is focused on making you fit and healthy.
+    :)
+</Text>
 
 </View>
 </ScrollView>

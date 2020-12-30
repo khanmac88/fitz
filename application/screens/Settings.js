@@ -89,14 +89,18 @@ constructor(props) {
 
 </View>
 
-<View style={{flexDirection: 'row', justifyContent: 'center', alignContent: 'center', alignItems: 'center', paddingTop: 10}}>
+{
+  
+  
+  /*<View style={{flexDirection: 'row', justifyContent: 'center', alignContent: 'center', alignItems: 'center', paddingTop: 10}}>
 <TouchableOpacity onPress={ ()=>{ Linking.openURL(ConfigApp.FACEBOOK)}}><Entypo name="facebook-with-circle" style={{fontSize: 46, width: 50, height: 50}} color="#f39c12"/></TouchableOpacity>
 <TouchableOpacity onPress={ ()=>{ Linking.openURL(ConfigApp.YOUTUBE)}}><Entypo name="youtube-with-circle" style={{fontSize: 46, width: 50, height: 50}} color="#f39c12"/></TouchableOpacity>
 <TouchableOpacity onPress={ ()=>{ Linking.openURL(ConfigApp.TWITTER)}}><Entypo name="twitter-with-circle" style={{fontSize: 46, width: 50, height: 50}} color="#f39c12"/></TouchableOpacity>
 <TouchableOpacity onPress={ ()=>{ Linking.openURL(ConfigApp.INSTAGRAM)}}><Entypo name="instagram-with-circle" style={{fontSize: 46, width: 50, height: 50}} color="#f39c12"/></TouchableOpacity>
 
 </View>
-
+*/
+  }
 </ScrollView>
 
 </Container>

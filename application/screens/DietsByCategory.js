@@ -8,6 +8,7 @@ import { Container, Text, Body, Right, List, ListView, Thumbnail, ListItem} from
 import ConfigApp from '../utils/ConfigApp';
 import Strings from '../utils/Strings';
 import BannerAd from '../components/BannerAd';
+import { NavigationActions } from 'react-navigation';
 
 
 var styles = require('../../assets/files/Styles');
@@ -66,7 +67,7 @@ export default class DietsByCategory extends Component {
 
 
 <View style={{margin: 7, marginTop: 5, flex: 1}}>
-
+   
 
          <FlatList
           data={ this.state.dataSource }

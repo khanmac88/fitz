@@ -27,7 +27,7 @@
     },
     "ios":{
         "bundleIdentifier":"com.khan.fitz",
-         "supportsTablet" : false,
+         "supportsTablet" : false
          
          
     }
